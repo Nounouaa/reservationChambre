@@ -34,7 +34,7 @@ import com.reservation.chambre.repository.ReservationRepository;
 import com.reservation.chambre.service.ChambreService;
 import com.reservation.chambre.service.ReservationService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://projetstages.netlify.app")
 @RestController
 @RequestMapping("/reservation")
 @AllArgsConstructor

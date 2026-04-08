@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.reservation.chambre.service.ChambreService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://projetstages.netlify.app")
 
 @RestController
 @RequestMapping("/chambre")
